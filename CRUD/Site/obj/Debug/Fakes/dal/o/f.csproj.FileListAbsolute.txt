@@ -1,0 +1,14 @@
+C:\Users\Paulo\source\repos\CRUD\Site\obj\Debug\Fakes\dal\b\DAL.Fakes.xml
+C:\Users\Paulo\source\repos\CRUD\Site\obj\Debug\Fakes\dal\b\DAL.Fakes.dll
+C:\Users\Paulo\source\repos\CRUD\Site\obj\Debug\Fakes\dal\b\DAL.Fakes.pdb
+C:\Users\Paulo\source\repos\CRUD\Site\obj\Debug\Fakes\dal\b\DAL.dll
+C:\Users\Paulo\source\repos\CRUD\Site\obj\Debug\Fakes\dal\b\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Paulo\source\repos\CRUD\Site\obj\Debug\Fakes\dal\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Paulo\source\repos\CRUD\Site\obj\Debug\Fakes\dal\b\DAL.pdb
+C:\Users\Paulo\source\repos\CRUD\Site\obj\Debug\Fakes\dal\b\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Paulo\source\repos\CRUD\Site\obj\Debug\Fakes\dal\b\pt-BR\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\Paulo\source\repos\CRUD\Site\obj\Debug\Fakes\dal\o\f.csprojResolveAssemblyReference.cache
+C:\Users\Paulo\source\repos\CRUD\Site\obj\Debug\Fakes\dal\o\f.csproj.CoreCompileInputs.cache
+C:\Users\Paulo\source\repos\CRUD\Site\obj\Debug\Fakes\dal\o\DAL.Fakes.dll
+C:\Users\Paulo\source\repos\CRUD\Site\obj\Debug\Fakes\dal\o\DAL.Fakes.pdb
+C:\Users\Paulo\source\repos\CRUD\Site\obj\Debug\Fakes\dal\b\adodb.dll

@@ -1,0 +1,470 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DAL.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:DAL.Model.Fakes.ShimCliente">
+            <summary>Tipo de correção de DAL.Model.Cliente</summary>
+        </member>
+        <member name="M:DAL.Model.Fakes.ShimCliente.#ctor">
+            <summary>Inicializa uma nova instância de correção</summary>
+        </member>
+        <member name="M:DAL.Model.Fakes.ShimCliente.#ctor(DAL.Model.Cliente)">
+            <summary>Inicializa uma nova correção para a instância determinada</summary>
+        </member>
+        <member name="T:DAL.Model.Fakes.ShimCliente.AllInstances">
+            <summary>Definir shims para todos os membros de instâncias</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.AllInstances.cod_situacao_clienteGet">
+            <summary>Define correção de Cliente.get_cod_situacao_cliente()</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.AllInstances.cod_situacao_clienteSetInt32">
+            <summary>Define correção de Cliente.set_cod_situacao_cliente(Int32 value)</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.AllInstances.cod_tipo_clienteGet">
+            <summary>Define correção de Cliente.get_cod_tipo_cliente()</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.AllInstances.cod_tipo_clienteSetInt32">
+            <summary>Define correção de Cliente.set_cod_tipo_cliente(Int32 value)</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.AllInstances.codigoGet">
+            <summary>Define correção de Cliente.get_codigo()</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.AllInstances.codigoSetInt32">
+            <summary>Define correção de Cliente.set_codigo(Int32 value)</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.AllInstances.cpfGet">
+            <summary>Define correção de Cliente.get_cpf()</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.AllInstances.cpfSetString">
+            <summary>Define correção de Cliente.set_cpf(String value)</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.AllInstances.nomeGet">
+            <summary>Define correção de Cliente.get_nome()</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.AllInstances.nomeSetString">
+            <summary>Define correção de Cliente.set_nome(String value)</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.AllInstances.sexoGet">
+            <summary>Define correção de Cliente.get_sexo()</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.AllInstances.sexoSetString">
+            <summary>Define correção de Cliente.set_sexo(String value)</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.AllInstances.situacao_clienteGet">
+            <summary>Define correção de Cliente.get_situacao_cliente()</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.AllInstances.situacao_clienteSetString">
+            <summary>Define correção de Cliente.set_situacao_cliente(String value)</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.AllInstances.tipo_clienteGet">
+            <summary>Define correção de Cliente.get_tipo_cliente()</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.AllInstances.tipo_clienteSetString">
+            <summary>Define correção de Cliente.set_tipo_cliente(String value)</summary>
+        </member>
+        <member name="M:DAL.Model.Fakes.ShimCliente.BehaveAsCurrent">
+            <summary>Atribui o comportamento &apos;Current&apos; para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="M:DAL.Model.Fakes.ShimCliente.BehaveAsNotImplemented">
+            <summary>Atribui o comportamento &apos;NotImplemented&apos; para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.Behavior">
+            <summary>Atribui o comportamento para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.Constructor">
+            <summary>Define correção de Cliente.Cliente()</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.cod_situacao_clienteGet">
+            <summary>Define correção de Cliente.get_cod_situacao_cliente()</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.cod_situacao_clienteSetInt32">
+            <summary>Define correção de Cliente.set_cod_situacao_cliente(Int32 value)</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.cod_tipo_clienteGet">
+            <summary>Define correção de Cliente.get_cod_tipo_cliente()</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.cod_tipo_clienteSetInt32">
+            <summary>Define correção de Cliente.set_cod_tipo_cliente(Int32 value)</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.codigoGet">
+            <summary>Define correção de Cliente.get_codigo()</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.codigoSetInt32">
+            <summary>Define correção de Cliente.set_codigo(Int32 value)</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.cpfGet">
+            <summary>Define correção de Cliente.get_cpf()</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.cpfSetString">
+            <summary>Define correção de Cliente.set_cpf(String value)</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.nomeGet">
+            <summary>Define correção de Cliente.get_nome()</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.nomeSetString">
+            <summary>Define correção de Cliente.set_nome(String value)</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.sexoGet">
+            <summary>Define correção de Cliente.get_sexo()</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.sexoSetString">
+            <summary>Define correção de Cliente.set_sexo(String value)</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.situacao_clienteGet">
+            <summary>Define correção de Cliente.get_situacao_cliente()</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.situacao_clienteSetString">
+            <summary>Define correção de Cliente.set_situacao_cliente(String value)</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.tipo_clienteGet">
+            <summary>Define correção de Cliente.get_tipo_cliente()</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimCliente.tipo_clienteSetString">
+            <summary>Define correção de Cliente.set_tipo_cliente(String value)</summary>
+        </member>
+        <member name="T:DAL.Model.Fakes.ShimPessoa">
+            <summary>Tipo de correção de DAL.Model.Pessoa</summary>
+        </member>
+        <member name="M:DAL.Model.Fakes.ShimPessoa.#ctor">
+            <summary>Inicializa uma nova instância de correção</summary>
+        </member>
+        <member name="M:DAL.Model.Fakes.ShimPessoa.#ctor(DAL.Model.Pessoa)">
+            <summary>Inicializa uma nova correção para a instância determinada</summary>
+        </member>
+        <member name="T:DAL.Model.Fakes.ShimPessoa.AllInstances">
+            <summary>Definir shims para todos os membros de instâncias</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimPessoa.AllInstances.codigoGet">
+            <summary>Define correção de Pessoa.get_codigo()</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimPessoa.AllInstances.codigoSetInt32">
+            <summary>Define correção de Pessoa.set_codigo(Int32 value)</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimPessoa.AllInstances.emailGet">
+            <summary>Define correção de Pessoa.get_email()</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimPessoa.AllInstances.emailSetString">
+            <summary>Define correção de Pessoa.set_email(String value)</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimPessoa.AllInstances.enderecoGet">
+            <summary>Define correção de Pessoa.get_endereco()</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimPessoa.AllInstances.enderecoSetString">
+            <summary>Define correção de Pessoa.set_endereco(String value)</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimPessoa.AllInstances.nomeGet">
+            <summary>Define correção de Pessoa.get_nome()</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimPessoa.AllInstances.nomeSetString">
+            <summary>Define correção de Pessoa.set_nome(String value)</summary>
+        </member>
+        <member name="M:DAL.Model.Fakes.ShimPessoa.BehaveAsCurrent">
+            <summary>Atribui o comportamento &apos;Current&apos; para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="M:DAL.Model.Fakes.ShimPessoa.BehaveAsNotImplemented">
+            <summary>Atribui o comportamento &apos;NotImplemented&apos; para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimPessoa.Behavior">
+            <summary>Atribui o comportamento para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimPessoa.Constructor">
+            <summary>Define correção de Pessoa.Pessoa()</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimPessoa.codigoGet">
+            <summary>Define correção de Pessoa.get_codigo()</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimPessoa.codigoSetInt32">
+            <summary>Define correção de Pessoa.set_codigo(Int32 value)</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimPessoa.emailGet">
+            <summary>Define correção de Pessoa.get_email()</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimPessoa.emailSetString">
+            <summary>Define correção de Pessoa.set_email(String value)</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimPessoa.enderecoGet">
+            <summary>Define correção de Pessoa.get_endereco()</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimPessoa.enderecoSetString">
+            <summary>Define correção de Pessoa.set_endereco(String value)</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimPessoa.nomeGet">
+            <summary>Define correção de Pessoa.get_nome()</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.ShimPessoa.nomeSetString">
+            <summary>Define correção de Pessoa.set_nome(String value)</summary>
+        </member>
+        <member name="T:DAL.Model.Fakes.StubCliente">
+            <summary>Tipo stub de DAL.Model.Cliente</summary>
+        </member>
+        <member name="M:DAL.Model.Fakes.StubCliente.#ctor">
+            <summary>Inicializa uma nova instância</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.StubCliente.CallBase">
+            <summary>Obtém ou define um valor que indica se o método base deve ser chamado em vez do comportamento de fallback</summary>
+        </member>
+        <member name="M:DAL.Model.Fakes.StubCliente.InitializeStub">
+            <summary>Inicializa uma nova instância do type StubCliente</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.StubCliente.InstanceBehavior">
+            <summary>Obtém ou define o comportamento da instância.</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.StubCliente.InstanceObserver">
+            <summary>Obtém ou define o observador de instância.</summary>
+        </member>
+        <member name="T:DAL.Model.Fakes.StubPessoa">
+            <summary>Tipo stub de DAL.Model.Pessoa</summary>
+        </member>
+        <member name="M:DAL.Model.Fakes.StubPessoa.#ctor">
+            <summary>Inicializa uma nova instância</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.StubPessoa.CallBase">
+            <summary>Obtém ou define um valor que indica se o método base deve ser chamado em vez do comportamento de fallback</summary>
+        </member>
+        <member name="M:DAL.Model.Fakes.StubPessoa.InitializeStub">
+            <summary>Inicializa uma nova instância do type StubPessoa</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.StubPessoa.InstanceBehavior">
+            <summary>Obtém ou define o comportamento da instância.</summary>
+        </member>
+        <member name="P:DAL.Model.Fakes.StubPessoa.InstanceObserver">
+            <summary>Obtém ou define o observador de instância.</summary>
+        </member>
+        <member name="T:DAL.Persistence.Fakes.ShimClienteDAL">
+            <summary>Tipo de correção de DAL.Persistence.ClienteDAL</summary>
+        </member>
+        <member name="M:DAL.Persistence.Fakes.ShimClienteDAL.#ctor">
+            <summary>Inicializa uma nova instância de correção</summary>
+        </member>
+        <member name="M:DAL.Persistence.Fakes.ShimClienteDAL.#ctor(DAL.Persistence.ClienteDAL)">
+            <summary>Inicializa uma nova correção para a instância determinada</summary>
+        </member>
+        <member name="T:DAL.Persistence.Fakes.ShimClienteDAL.AllInstances">
+            <summary>Definir shims para todos os membros de instâncias</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimClienteDAL.AllInstances.AtualizarCliente">
+            <summary>Define correção de ClienteDAL.Atualizar(Cliente cliente)</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimClienteDAL.AllInstances.DeletarInt32">
+            <summary>Define correção de ClienteDAL.Deletar(Int32 cod)</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimClienteDAL.AllInstances.GravarCliente">
+            <summary>Define correção de ClienteDAL.Gravar(Cliente cliente)</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimClienteDAL.AllInstances.GravarSituacaoClienteCliente">
+            <summary>Define correção de ClienteDAL.GravarSituacaoCliente(Cliente cliente)</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimClienteDAL.AllInstances.GravarTipoClienteCliente">
+            <summary>Define correção de ClienteDAL.GravarTipoCliente(Cliente cliente)</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimClienteDAL.AllInstances.Listar">
+            <summary>Define correção de ClienteDAL.Listar()</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimClienteDAL.AllInstances.ListarSituacaoCliente">
+            <summary>Define correção de ClienteDAL.ListarSituacaoCliente()</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimClienteDAL.AllInstances.ListarTipoCliente">
+            <summary>Define correção de ClienteDAL.ListarTipoCliente()</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimClienteDAL.AllInstances.PesquisarPorCodigoInt32">
+            <summary>Define correção de ClienteDAL.PesquisarPorCodigo(Int32 cod)</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimClienteDAL.AllInstances.preencherSituacaoCliente">
+            <summary>Define correção de ClienteDAL.preencherSituacaoCliente()</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimClienteDAL.AllInstances.preencherTipoCliente">
+            <summary>Define correção de ClienteDAL.preencherTipoCliente()</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimClienteDAL.AtualizarCliente">
+            <summary>Define correção de ClienteDAL.Atualizar(Cliente cliente)</summary>
+        </member>
+        <member name="M:DAL.Persistence.Fakes.ShimClienteDAL.BehaveAsCurrent">
+            <summary>Atribui o comportamento &apos;Current&apos; para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="M:DAL.Persistence.Fakes.ShimClienteDAL.BehaveAsNotImplemented">
+            <summary>Atribui o comportamento &apos;NotImplemented&apos; para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimClienteDAL.Behavior">
+            <summary>Atribui o comportamento para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimClienteDAL.Constructor">
+            <summary>Define correção de ClienteDAL.ClienteDAL()</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimClienteDAL.DeletarInt32">
+            <summary>Define correção de ClienteDAL.Deletar(Int32 cod)</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimClienteDAL.GravarCliente">
+            <summary>Define correção de ClienteDAL.Gravar(Cliente cliente)</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimClienteDAL.GravarSituacaoClienteCliente">
+            <summary>Define correção de ClienteDAL.GravarSituacaoCliente(Cliente cliente)</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimClienteDAL.GravarTipoClienteCliente">
+            <summary>Define correção de ClienteDAL.GravarTipoCliente(Cliente cliente)</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimClienteDAL.Listar">
+            <summary>Define correção de ClienteDAL.Listar()</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimClienteDAL.ListarSituacaoCliente">
+            <summary>Define correção de ClienteDAL.ListarSituacaoCliente()</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimClienteDAL.ListarTipoCliente">
+            <summary>Define correção de ClienteDAL.ListarTipoCliente()</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimClienteDAL.PesquisarPorCodigoInt32">
+            <summary>Define correção de ClienteDAL.PesquisarPorCodigo(Int32 cod)</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimClienteDAL.preencherSituacaoCliente">
+            <summary>Define correção de ClienteDAL.preencherSituacaoCliente()</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimClienteDAL.preencherTipoCliente">
+            <summary>Define correção de ClienteDAL.preencherTipoCliente()</summary>
+        </member>
+        <member name="T:DAL.Persistence.Fakes.ShimConexao">
+            <summary>Tipo de correção de DAL.Persistence.Conexao</summary>
+        </member>
+        <member name="M:DAL.Persistence.Fakes.ShimConexao.#ctor">
+            <summary>Inicializa uma nova instância de correção</summary>
+        </member>
+        <member name="M:DAL.Persistence.Fakes.ShimConexao.#ctor(DAL.Persistence.Conexao)">
+            <summary>Inicializa uma nova correção para a instância determinada</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimConexao.AbrirConecao">
+            <summary>Define correção de Conexao.AbrirConecao()</summary>
+        </member>
+        <member name="T:DAL.Persistence.Fakes.ShimConexao.AllInstances">
+            <summary>Definir shims para todos os membros de instâncias</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimConexao.AllInstances.AbrirConecao">
+            <summary>Define correção de Conexao.AbrirConecao()</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimConexao.AllInstances.FecharConecao">
+            <summary>Define correção de Conexao.FecharConecao()</summary>
+        </member>
+        <member name="M:DAL.Persistence.Fakes.ShimConexao.BehaveAsCurrent">
+            <summary>Atribui o comportamento &apos;Current&apos; para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="M:DAL.Persistence.Fakes.ShimConexao.BehaveAsNotImplemented">
+            <summary>Atribui o comportamento &apos;NotImplemented&apos; para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimConexao.Behavior">
+            <summary>Atribui o comportamento para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimConexao.Constructor">
+            <summary>Define correção de Conexao.Conexao()</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimConexao.FecharConecao">
+            <summary>Define correção de Conexao.FecharConecao()</summary>
+        </member>
+        <member name="T:DAL.Persistence.Fakes.ShimPessoaDAL">
+            <summary>Tipo de correção de DAL.Persistence.PessoaDAL</summary>
+        </member>
+        <member name="M:DAL.Persistence.Fakes.ShimPessoaDAL.#ctor">
+            <summary>Inicializa uma nova instância de correção</summary>
+        </member>
+        <member name="M:DAL.Persistence.Fakes.ShimPessoaDAL.#ctor(DAL.Persistence.PessoaDAL)">
+            <summary>Inicializa uma nova correção para a instância determinada</summary>
+        </member>
+        <member name="T:DAL.Persistence.Fakes.ShimPessoaDAL.AllInstances">
+            <summary>Definir shims para todos os membros de instâncias</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimPessoaDAL.AllInstances.AtualizarPessoa">
+            <summary>Define correção de PessoaDAL.Atualizar(Pessoa pessoa)</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimPessoaDAL.AllInstances.DeletarInt32">
+            <summary>Define correção de PessoaDAL.Deletar(Int32 cod)</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimPessoaDAL.AllInstances.GravarPessoa">
+            <summary>Define correção de PessoaDAL.Gravar(Pessoa pessoa)</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimPessoaDAL.AllInstances.Listar">
+            <summary>Define correção de PessoaDAL.Listar()</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimPessoaDAL.AllInstances.PesquisarPorCodigoInt32">
+            <summary>Define correção de PessoaDAL.PesquisarPorCodigo(Int32 cod)</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimPessoaDAL.AtualizarPessoa">
+            <summary>Define correção de PessoaDAL.Atualizar(Pessoa pessoa)</summary>
+        </member>
+        <member name="M:DAL.Persistence.Fakes.ShimPessoaDAL.BehaveAsCurrent">
+            <summary>Atribui o comportamento &apos;Current&apos; para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="M:DAL.Persistence.Fakes.ShimPessoaDAL.BehaveAsNotImplemented">
+            <summary>Atribui o comportamento &apos;NotImplemented&apos; para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimPessoaDAL.Behavior">
+            <summary>Atribui o comportamento para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimPessoaDAL.Constructor">
+            <summary>Define correção de PessoaDAL.PessoaDAL()</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimPessoaDAL.DeletarInt32">
+            <summary>Define correção de PessoaDAL.Deletar(Int32 cod)</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimPessoaDAL.GravarPessoa">
+            <summary>Define correção de PessoaDAL.Gravar(Pessoa pessoa)</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimPessoaDAL.Listar">
+            <summary>Define correção de PessoaDAL.Listar()</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.ShimPessoaDAL.PesquisarPorCodigoInt32">
+            <summary>Define correção de PessoaDAL.PesquisarPorCodigo(Int32 cod)</summary>
+        </member>
+        <member name="T:DAL.Persistence.Fakes.StubClienteDAL">
+            <summary>Tipo stub de DAL.Persistence.ClienteDAL</summary>
+        </member>
+        <member name="M:DAL.Persistence.Fakes.StubClienteDAL.#ctor">
+            <summary>Inicializa uma nova instância</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.StubClienteDAL.CallBase">
+            <summary>Obtém ou define um valor que indica se o método base deve ser chamado em vez do comportamento de fallback</summary>
+        </member>
+        <member name="M:DAL.Persistence.Fakes.StubClienteDAL.InitializeStub">
+            <summary>Inicializa uma nova instância do type StubClienteDAL</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.StubClienteDAL.InstanceBehavior">
+            <summary>Obtém ou define o comportamento da instância.</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.StubClienteDAL.InstanceObserver">
+            <summary>Obtém ou define o observador de instância.</summary>
+        </member>
+        <member name="T:DAL.Persistence.Fakes.StubConexao">
+            <summary>Tipo stub de DAL.Persistence.Conexao</summary>
+        </member>
+        <member name="M:DAL.Persistence.Fakes.StubConexao.#ctor">
+            <summary>Inicializa uma nova instância</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.StubConexao.CallBase">
+            <summary>Obtém ou define um valor que indica se o método base deve ser chamado em vez do comportamento de fallback</summary>
+        </member>
+        <member name="M:DAL.Persistence.Fakes.StubConexao.InitializeStub">
+            <summary>Inicializa uma nova instância do type StubConexao</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.StubConexao.InstanceBehavior">
+            <summary>Obtém ou define o comportamento da instância.</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.StubConexao.InstanceObserver">
+            <summary>Obtém ou define o observador de instância.</summary>
+        </member>
+        <member name="T:DAL.Persistence.Fakes.StubPessoaDAL">
+            <summary>Tipo stub de DAL.Persistence.PessoaDAL</summary>
+        </member>
+        <member name="M:DAL.Persistence.Fakes.StubPessoaDAL.#ctor">
+            <summary>Inicializa uma nova instância</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.StubPessoaDAL.CallBase">
+            <summary>Obtém ou define um valor que indica se o método base deve ser chamado em vez do comportamento de fallback</summary>
+        </member>
+        <member name="M:DAL.Persistence.Fakes.StubPessoaDAL.InitializeStub">
+            <summary>Inicializa uma nova instância do type StubPessoaDAL</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.StubPessoaDAL.InstanceBehavior">
+            <summary>Obtém ou define o comportamento da instância.</summary>
+        </member>
+        <member name="P:DAL.Persistence.Fakes.StubPessoaDAL.InstanceObserver">
+            <summary>Obtém ou define o observador de instância.</summary>
+        </member>
+    </members>
+</doc>
